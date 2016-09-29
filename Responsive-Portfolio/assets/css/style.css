@@ -202,4 +202,30 @@ button:hover{
 	transition:ease-in .3s;
 
 }
+/** MEDIA QUERIES! **/
+
+@media screen and (min-width: 979px max-width: 980px) {
+.container {
+	width:100%;
+}
+
+nav{
+ 		position: relative;
+ 		left: 25%
+}
+}
+
+@media screen and (min-width: 767px max-width: 768px) {
+.container {
+	width: 100%;
+}	
+ 
+
+@media screen and (min-width: 639px max-width: 640px) {
+.header {
+	display: static;
+}
+
+}
+
 
