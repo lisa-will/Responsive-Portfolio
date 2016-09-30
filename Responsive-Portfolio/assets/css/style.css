@@ -204,27 +204,152 @@ button:hover{
 }
 /** MEDIA QUERIES! **/
 
-@media screen and (min-width: 979px max-width: 980px) {
+@media screen and (max-width: 980px) {
+
+header {
+	background-color: #fff;
+}
+
+nav {
+	float: left;
+	color: #777;
+	font-size: 14px;
+	letter-spacing: 3.7px;
+	padding-top: 30px;
+	margin-left: 100px;
+
+}
+.headshot {
+	margin: auto; 
+	width: 65%;
+}
+.diva {
+	margin-top: 300px;
+}
+
 .container {
-	width:100%;
+	width: 100%;
+}	
+
+.bio, .contact, .gallery {
+	background-color: #fff;
+	border: 2px solid #ddd;
+	width: 40%;
+	padding: 30px;
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 60px; 
 }
 
-nav{
- 		position: relative;
- 		left: 25%
-}
+ .sm_menu {
+	width: 25%;
+	background-color: #fff;
+	border: 2px solid #ddd;
+	padding: 25px;
+	text-align: center;
+	margin-top: 40px;
+	margin-right: 162px;
+
 }
 
-@media screen and (min-width: 767px max-width: 768px) {
+
+@media screen and (max-width: 768px) {
+
+header {
+	background-color: #fff;
+}
+
+nav {
+	float: left;
+	color: #777;
+	font-size: 14px;
+	letter-spacing: 3.7px;
+	padding-top: 30px;
+	margin-left: 22px;
+}	
+
+.bio, .contact, .gallery {
+	background-color: #fff;
+	border: 2px solid #ddd;
+	width: 80%;
+	padding: 30px;
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 60px; 
+	margin-left: 45px;
+
+}
+.headshot {
+	margin: auto; 
+	width: 100%;
+}
+.diva {
+	margin-top: 0;
+}
+
+.sm_menu {
+	width: 100%;
+	background-color: #fff;
+	border: 2px solid #ddd;
+	padding: 25px;
+	text-align: center;
+	
+	margin-top: 5px;
+	margin-bottom: 40px;
+	clear: both;
+
+}
 .container {
 	width: 100%;
 }	
  
 
-@media screen and (min-width: 639px max-width: 640px) {
-.header {
-	display: static;
+@media screen and (max-width: 640px) {
+
+header {
+	background-color: #fff;
 }
+
+nav {
+	float: left;
+	color: #777;
+	font-size: 14px;
+	letter-spacing: 3.7px;
+	padding-top: 30px;
+	margin-left: 150px;
+
+}
+
+.headshot {
+	margin: auto; 
+	width: 65%;
+}
+.diva {
+	margin-top: 300px;
+}
+
+.container {
+	width: 100%;
+}	
+
+.bio, .contact, .gallery {
+	background-color: #fff;
+	border: 2px solid #ddd;
+	width: 60%;
+	padding: 30px;
+	margin-left: 90px;
+	margin-top: 40px;
+	margin-bottom: 30px; 
+}
+
+ .sm_menu {
+	width: 62%;
+	background-color: #fff;
+	border: 2px solid #ddd;
+	padding: 25px;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 103px;
 
 }
 
