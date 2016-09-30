@@ -81,6 +81,8 @@ p {
 
 .container {
 	width: 1020px;
+	padding-left: 20px;
+	padding-right: 20px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -106,14 +108,15 @@ p {
 }
 
 .sm_menu {
-	width: 25%;
+	width: 20%;
 	background-color: #fff;
 	border: 2px solid #ddd;
 	padding: 25px;
 	text-align: center;
 	float: right;
 	margin-top: 40px;
-	margin-right: 0px;
+	margin-right: 130px;
+
 
 }
 
@@ -265,7 +268,7 @@ nav {
 	font-size: 14px;
 	letter-spacing: 3.7px;
 	padding-top: 30px;
-	margin-left: 22px;
+	margin-left: 14px;
 }	
 
 .bio, .contact, .gallery {
@@ -276,7 +279,7 @@ nav {
 	float: left;
 	margin-top: 40px;
 	margin-bottom: 60px; 
-	margin-left: 45px;
+	margin-left: 30px;
 
 }
 .headshot {
@@ -316,7 +319,7 @@ nav {
 	font-size: 14px;
 	letter-spacing: 3.7px;
 	padding-top: 30px;
-	margin-left: 150px;
+	margin-left: 170px;
 
 }
 
@@ -337,19 +340,19 @@ nav {
 	border: 2px solid #ddd;
 	width: 60%;
 	padding: 30px;
-	margin-left: 90px;
-	margin-top: 40px;
+	margin-left: 80px;
+	margin-top: 20px;
 	margin-bottom: 30px; 
 }
 
  .sm_menu {
-	width: 62%;
+	width: 60%;
 	background-color: #fff;
 	border: 2px solid #ddd;
-	padding: 25px;
+	padding: 30px;
 	text-align: center;
 	margin-top: 10px;
-	margin-right: 103px;
+	margin-right: 92px;
 
 }
 
