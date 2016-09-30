@@ -277,8 +277,8 @@ header {
 }
 
 .container_headline {
-	margin-left: 20%;
-	padding-left: 5px;
+	margin-left: 0;
+	
 
 }
 
@@ -288,7 +288,7 @@ nav {
 	font-size: 14px;
 	letter-spacing: 3.7px;
 	padding-top: 30px;
-	margin-left: 14px;
+	margin-left: 8%;
 }	
 
 .bio, .contact, .gallery {
@@ -297,8 +297,8 @@ nav {
 	width: 80%;
 	padding: 30px;
 	float: left;
-	margin-top: 40px;
-	margin-bottom: 60px; 
+	margin-top: 20px;
+	margin-bottom: 40px; 
 	margin-left: 30px;
 
 }
@@ -311,14 +311,14 @@ nav {
 }
 
 .sm_menu {
-	width: 100%;
+	width: 80%;
 	background-color: #fff;
 	border: 2px solid #ddd;
-	padding: 25px;
+	padding: 28px;
 	text-align: center;
 	margin-top: 5px;
 	margin-bottom: 40px;
-	clear: both;
+	margin-left: 4%;
 
 }
 .container {
